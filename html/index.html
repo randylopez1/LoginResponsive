@@ -1,9 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <title>Login</title>
+<link rel="stylesheet" href="/css/Login.css">
+<link rel="stylesheet" href="/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+
 </head>
 <body>
+
+    <!--DIV CONTENT IFO LOGIN-->
+    <div class="div-content-login">
+
+        <!--IMG ON LOGIN-->
+        <div class="div-content-logo">
+
+        </div>
+
+        <!--LABEL BIENVENIDO-->
+        <div class="LabelBienvenido">
+            <p><h4> ¡Bienvenido!</h4></p>
+        </div>
+
+        <form class="form-login" id="frmSession">
+
+                <div class="form-group ">
+
+                    <div class="form-group">
+                        <strong><label class="control-label">Correo Electrónico</label></strong>
+                        <input id="Email" class="form-control" autocomplete="off" placeholder="Correo Electrónico" />
+                        <span class="text-danger"></span>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <strong> <label asp-for="Passwords" class="control-label">Contraseña</label></strong>
+                            <input asp-for="Passwords" class="form-control" autocomplete="off" type="password" placeholder="Contraseña" />
+                            <span class="text-danger"></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group" style="align-items:center">
+                        <button id="btnLogin" type="submit" class="btn btn-primary">Iniciar Sesión </button>
+                    </div>
+
+                </div>
+
+
+            </form>
+
+            <!--DIV CONTENT OLVIDO CONTRASENA-->
+            <div class="div-olvidocontrasena">
+                <i class="fa fa-lock"></i><a href="#"> ¿Olvido la Contraseña?</a>
+            </div>
+
+            <div class="div-footer">
+                <strong>&copy; <a href="https://www.linkedin.com/in/randylopezbaez/" target="_blank"> Randy Lopez Baez</a>.</strong> All rights reserved.
+            </div>
+
+</div>
+
+
+    <!--DIV CONTENT IMG RIGTH-->
+    <div class="div-content-background-imagen">
+
+    </div>
+
+<script src="/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
