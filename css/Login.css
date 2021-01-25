@@ -71,7 +71,7 @@
     position: relative;
     margin: 0 auto;
     padding: 0;
-    top: 40%;
+    top: 33%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -154,12 +154,32 @@
     position: relative;
     margin: 0 auto;
     padding: 0;
-    top: 35%;
+    top: 33%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
-    @media (min-height: 400px) and (max-height: 450px) {
+    @media (min-height: 350px) and (max-height: 400px) {
+
+        .div-olvidocontrasena {
+            position: relative;
+            margin: 0 auto;
+            padding: 0;
+            top: 6%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+
+        .div-footer {
+            position: relative;
+            margin: 0 auto;
+            padding: 0;
+            top:9%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+    }
+
+    @media (min-height: 401px) and (max-height: 450px) {
 
         .div-olvidocontrasena {
             position: relative;
@@ -174,17 +194,18 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 15%;
+            top:13%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
     }
+
         @media (min-height: 451px) and (max-height: 500px) {
 
             .div-olvidocontrasena {
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 13%;
+                top: 14%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
 
@@ -193,7 +214,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 15%;
+                top: 17%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
         }
@@ -213,7 +234,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 21%;
+                top: 23%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
         }
@@ -224,7 +245,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 22%;
+                top: 23%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
 
@@ -233,7 +254,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 24%;
+                top: 27%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
         }
@@ -244,7 +265,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 21%;
+                top: 27%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
 
@@ -253,7 +274,7 @@
                 position: relative;
                 margin: 0 auto;
                 padding: 0;
-                top: 24%;
+                top: 30%;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
         }
@@ -264,7 +285,7 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 25%;
+            top: 30%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
@@ -273,7 +294,7 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 30%;
+            top: 33%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
     }
@@ -284,7 +305,7 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 30%;
+            top: 33%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
@@ -292,7 +313,7 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 40%;
+            top: 36%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
     }
@@ -303,7 +324,7 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 40%;
+            top: 36%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
@@ -312,8 +333,10 @@
             position: relative;
             margin: 0 auto;
             padding: 0;
-            top: 50%;
+            top: 39%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
     }
+    
+    
 }
